@@ -1,0 +1,229 @@
+[
+  {
+    "name": "Warrior",
+    "hp": 120,
+    "mp": 30,
+    "atk": 25,
+    "def": 15,
+    "skills": [
+      {
+        "name": "Power Slash",
+        "cost_mp": 10,
+        "hp_to_enemy": -30,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 10,
+        "def_to_enemy": 0,
+        "def_to_self": 0,
+        "description": "強力な一撃を与え、自分の攻撃力を上げる"
+      }
+    ]
+  },
+  {
+    "name": "Vampire Lord",
+    "hp": 150,
+    "mp": 120,
+    "atk": 30,
+    "def": 20,
+    "skills": [
+      {
+        "name": "Blood Drain",
+        "cost_mp": 15,
+        "hp_to_enemy": -35,
+        "hp_to_self": 35,
+        "mp_to_enemy": 0,
+        "mp_to_self": 10,
+        "atk_to_enemy": 0,
+        "atk_to_self": 0,
+        "def_to_enemy": 0,
+        "def_to_self": 0,
+        "description": "敵の血を吸い取り、HP を吸収して MP も回復する"
+      },
+      {
+        "name": "Night Shroud",
+        "cost_mp": 20,
+        "hp_to_enemy": 0,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 0,
+        "def_to_enemy": -10,
+        "def_to_self": 15,
+        "description": "闇の帳で身を覆い、防御力を上げながら敵の DEF を下げる"
+      },
+      {
+        "name": "Dark Gift",
+        "cost_mp": 25,
+        "hp_to_enemy": 0,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 20,
+        "atk_to_enemy": 0,
+        "atk_to_self": 20,
+        "def_to_enemy": 0,
+        "def_to_self": 0,
+        "description": "闇の力で自身を強化し、ATK と MP を同時に大幅上昇"
+      },
+      {
+        "name": "Pale Curse",
+        "cost_mp": 10,
+        "hp_to_enemy": -15,
+        "hp_to_self": 0,
+        "mp_to_enemy": -10,
+        "mp_to_self": 0,
+        "atk_to_enemy": -10,
+        "atk_to_self": 0,
+        "def_to_enemy": 0,
+        "def_to_self": 0,
+        "description": "呪詛で敵の HP・MP・ATK を同時に削る"
+      }
+    ]
+  },
+  {
+    "name": "Stone Golem",
+    "hp": 200,
+    "mp": 40,
+    "atk": 25,
+    "def": 40,
+    "skills": [
+      {
+        "name": "Rock Armor",
+        "cost_mp": 10,
+        "hp_to_enemy": 0,
+        "hp_to_self": 30,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 0,
+        "def_to_enemy": 0,
+        "def_to_self": 20,
+        "description": "岩の鎧で身を固め、HP を回復しながら DEF 大幅アップ"
+      },
+      {
+        "name": "Seismic Slam",
+        "cost_mp": 15,
+        "hp_to_enemy": -40,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 0,
+        "def_to_enemy": 0,
+        "def_to_self": 10,
+        "description": "地震攻撃で敵にダメージを与えつつ自身の DEF を上げる"
+      },
+      {
+        "name": "Dust Cloud",
+        "cost_mp": 10,
+        "hp_to_enemy": 0,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": -15,
+        "atk_to_self": 0,
+        "def_to_enemy": -5,
+        "def_to_self": 0,
+        "description": "土煙を上げて敵をかく乱し、ATK と DEF を下げる"
+      }
+    ]
+  },
+  {
+    "name": "Assassin",
+    "hp": 90,
+    "mp": 60,
+    "atk": 18,
+    "def": 10,
+    "skills": [
+      {
+        "name": "Shadow Strike",
+        "cost_mp": 10,
+        "hp_to_enemy": -30,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 15,
+        "def_to_enemy": 0,
+        "def_to_self": 0,
+        "description": "闇に紛れて急所を突き、攻撃しながら ATK を大幅アップ"
+      },
+      {
+        "name": "Smoke Bomb",
+        "cost_mp": 8,
+        "hp_to_enemy": 0,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": -15,
+        "atk_to_self": 0,
+        "def_to_enemy": 0,
+        "def_to_self": 10,
+        "description": "煙幕で身を隠し、防御を上げつつ敵の攻撃力を下げる"
+      },
+      {
+        "name": "Poison Blade",
+        "cost_mp": 12,
+        "hp_to_enemy": -25,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 0,
+        "def_to_enemy": -5,
+        "def_to_self": 0,
+        "description": "毒刃で攻撃し、追加で敵の防御を削る"
+      }
+    ]
+  },
+  {
+    "name": "Paladin",
+    "hp": 140,
+    "mp": 50,
+    "atk": 20,
+    "def": 25,
+    "skills": [
+      {
+        "name": "Holy Smite",
+        "cost_mp": 10,
+        "hp_to_enemy": -35,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 5,
+        "def_to_enemy": 0,
+        "def_to_self": 0,
+        "description": "聖なる一撃で敵を攻撃し、自身の攻撃力を少し上げる"
+      },
+      {
+        "name": "Divine Shield",
+        "cost_mp": 15,
+        "hp_to_enemy": 0,
+        "hp_to_self": 40,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": 0,
+        "atk_to_self": 0,
+        "def_to_enemy": 0,
+        "def_to_self": 20,
+        "description": "光の盾で自らを守り、大幅に回復しつつ防御力を強化"
+      },
+      {
+        "name": "Retribution",
+        "cost_mp": 20,
+        "hp_to_enemy": -30,
+        "hp_to_self": 0,
+        "mp_to_enemy": 0,
+        "mp_to_self": 0,
+        "atk_to_enemy": -10,
+        "atk_to_self": 0,
+        "def_to_enemy": -10,
+        "def_to_self": 0,
+        "description": "裁きの光で敵を弱体化しつつダメージを与える"
+      }
+    ]
+  }
+]
